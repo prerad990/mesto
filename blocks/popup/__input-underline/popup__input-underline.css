@@ -1,0 +1,5 @@
+.popup__input-underline {
+    max-width: 100%;
+    border: 1px solid black;
+    opacity: .2;
+}

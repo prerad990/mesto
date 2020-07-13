@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="root">
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="./image/header_logo.svg" alt="Место">
+            <div class="header__line"></div>
+        </header>
+        <main class="main-content">
+            <section class="profile">
+                <img class="profile__avatar " src="./image/kusto.png" alt="Аватар">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <p class="profile__description">Исследователь океана</p>
+                </div>
+                <button class="profile__edit"></button>  
+                <button class="profile__add"></button>              
+            </section>
+            <section class="elements">
+                <div class="element">
+                    <img class="element__img" src="./image/karachaevsk.jpg" alt="Карачаевск">
+                    <div class="element__rectangle">
+                        <h2 class="element__rectangle-text">Карачаевск</h2>
+                        <button class="element__like-button"><img src="./image/like.svg" alt="Нравится"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__img" src="./image/elbrus.png" alt="Эльбрус">
+                    <div class="element__rectangle">
+                        <h2 class="element__rectangle-text">Гора Эльбрус</h2>
+                        <button class="element__like-button"><img src="./image/like.svg" alt="Нравится"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__img" src="./image/dombay.png" alt="Домбай">
+                    <div class="element__rectangle">
+                        <h2 class="element__rectangle-text">Домбай</h2>
+                        <button class="element__like-button"><img src="./image/like.svg" alt="Нравится"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__img" src="./image/elbrus.png" alt="Эльбрус">
+                    <div class="element__rectangle">
+                        <h2 class="element__rectangle-text">Гора Эльбрус</h2>
+                        <button class="element__like-button"><img src="./image/like.svg" alt="Нравится"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__img" src="./image/dombay.png" alt="Домбай">
+                    <div class="element__rectangle">
+                        <h2 class="element__rectangle-text">Домбай</h2>
+                        <button class="element__like-button"><img src="./image/like.svg" alt="Нравится"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__img" src="./image/karachaevsk.jpg" alt="Карачаево-Черкессия">
+                    <div class="element__rectangle">
+                        <h2 class="element__rectangle-text">Карачаево-Черкессия</h2>
+                        <button class="element__like-button"><img src="./image/like.svg" alt="Нравится"></button>
+                    </div>
+                </div>
+            </section>      
+        </main>
+        <footer class="footer">
+            <p class="footer__copyrights">&copy; 2020 Данила Прерад</p>
+        </footer>
+    </div>
+    <div class="popup">       
+        <div class="popup__container">
+            <button class="popup__close"></button>
+            <h3 class="popup__heading">Редактировать профиль</h3>
+            <form action="#" class="popup__input">
+                <input class="popup__input-name" type="text">
+                <div class="popup__input-underline"></div>
+                <input class="popup__input-description" type="text">
+                <div class="popup__input-underline"></div>
+                <button class="popup__input-button" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

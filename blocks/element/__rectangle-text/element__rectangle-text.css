@@ -1,0 +1,8 @@
+.element__rectangle-text {
+    padding-left: 21px;
+    font-size: 24px;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
